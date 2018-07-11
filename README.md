@@ -8,9 +8,9 @@ Customized Deriver for Velodyne 32
 ## Running the demo
 ```
 $ sudo apt-get install ros-jade-velodyne
-    change "cd /home/wenws/15_velodyne" to "cd /home/yourpcname/15_velodyne"
-    change "source /home/yourpcname/15_velodyne/devel/setup.bash" to "source /home/yourpcname/15_velodyne/devel/setup.bash"
-    yourpcname is the name of your ubuntu system
+change "cd /home/wenws/15_velodyne" to "cd /home/yourpcname/15_velodyne"
+change "source /home/yourpcname/15_velodyne/devel/setup.bash" to "source /home/yourpcname/15_velodyne/devel/setup.bash"
+yourpcname is the name of your ubuntu system
 $ runVelodyne.sh
 ```
 
