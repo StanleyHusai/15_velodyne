@@ -1,10 +1,12 @@
-15_velodyne
+# 15_velodyne
 
 Customized Deriver for Velodyne Lidar 32E
-Package summary
+
+## Package summary
 
 15_velodyne is a customized ROS node used to collect data from Velodyne Lidar 32E.
-Running the demo
+
+## Running the demo
 
 $ git clone https://github.com/StanleyHusai/15_velodyne.git
 
@@ -19,7 +21,7 @@ $ ./runVelodyne.sh
 Output:
 --3D point cloud with topic velodyne_points
 
-Appendix
+## Appendix
 
 Connect to the LIDAR
 
@@ -29,5 +31,3 @@ Connect to the LIDAR
     Address: 192.168.3.255
     Netmask: 255.255.255.0
     Gateway: 192.168.1.1
-
-# 15_velodyne
