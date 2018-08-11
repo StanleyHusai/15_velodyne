@@ -17,6 +17,7 @@ extract src_velodyne.tar.gz
 
 compile
 
+
 Give execute permission to your script in /15_velodyne
 $ chmod +x runVelodyne.sh
 $ ./runVelodyne.sh
