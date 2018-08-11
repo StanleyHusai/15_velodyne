@@ -34,8 +34,8 @@ Connect to the LIDAR
 2. Connect the LIDAR to an Ethernet port on your computer.
 3. Generate a connection with configuration as follows:
 
-    Address: 192.168.3.255
+    Address: `192.168.3.255`
     
-    Netmask: 255.255.255.0
+    Netmask: `255.255.255.0`
     
-    Gateway: 192.168.1.1
+    Gateway: `192.168.1.1`
