@@ -8,7 +8,7 @@ Customized Deriver for Velodyne Lidar 32E
 
 ## Running the demo
 
-$ git clone https://github.com/StanleyHusai/15_velodyne.git
+$ `git clone https://github.com/StanleyHusai/15_velodyne.git`
 
 delete folders 'build', 'devel' and 'src'
 
@@ -18,9 +18,9 @@ compile
 
 Give execute permission to your script in /15_velodyne
 
-$ chmod +x runVelodyne.sh
+$ `chmod +x runVelodyne.sh`
 
-$ ./runVelodyne.sh
+$ `./runVelodyne.sh`
 
 Output:
 
