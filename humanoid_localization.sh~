@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-cd /home/wenws/15_velodyne
-source /home/wenws/15_velodyne/devel/setup.bash
-roslaunch velodyne_pointcloud 32e_points.launch calibration:=/home/wenws/15_velodyne/32db.yaml
+cd /home/husai/15_velodyne
+source /home/husai/15_velodyne/devel/setup.bash
+roslaunch velodyne_pointcloud 32e_points.launch calibration:=/home/husai/15_velodyne/32db.yaml
 
 
