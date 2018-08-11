@@ -12,9 +12,9 @@ Customized Deriver for Velodyne Lidar 32E
 
 * delete folders 'build', 'devel' and 'src'
 
-extract src_velodyne.tar.gz
+* extract src_velodyne.tar.gz
 
-compile
+* compile
 
 Give execute permission to your script in /15_velodyne
 
