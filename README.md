@@ -10,19 +10,20 @@ Customized Deriver for Velodyne Lidar 32E
 
 $ git clone https://github.com/StanleyHusai/15_velodyne.git
 
-
 delete folders 'build', 'devel' and 'src'
 
 extract src_velodyne.tar.gz
 
 compile
 
-
 Give execute permission to your script in /15_velodyne
+
 $ chmod +x runVelodyne.sh
+
 $ ./runVelodyne.sh
 
 Output:
+
 --3D point cloud with topic velodyne_points
 
 ## Appendix
