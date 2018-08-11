@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/wenws/15_velodyne/src
-# Build directory: /home/wenws/15_velodyne/build
+# Source directory: /home/husai/15_velodyne/src
+# Build directory: /home/husai/15_velodyne/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

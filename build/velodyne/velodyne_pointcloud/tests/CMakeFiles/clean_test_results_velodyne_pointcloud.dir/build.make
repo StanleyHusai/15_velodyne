@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/15_velodyne/src
+CMAKE_SOURCE_DIR = /home/husai/15_velodyne/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/15_velodyne/build
+CMAKE_BINARY_DIR = /home/husai/15_velodyne/build
 
 # Utility rule file for clean_test_results_velodyne_pointcloud.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/wenws/15_velodyne/build
 include velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/progress.make
 
 velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud:
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_pointcloud/tests && /usr/bin/python /opt/ros/jade/share/catkin/cmake/test/remove_test_results.py /home/wenws/15_velodyne/build/test_results/velodyne_pointcloud
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_pointcloud/tests && /usr/bin/python /opt/ros/jade/share/catkin/cmake/test/remove_test_results.py /home/husai/15_velodyne/build/test_results/velodyne_pointcloud
 
 clean_test_results_velodyne_pointcloud: velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud
 clean_test_results_velodyne_pointcloud: velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/build.make
@@ -57,10 +57,10 @@ velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointc
 .PHONY : velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/build
 
 velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/clean:
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_pointcloud/tests && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_velodyne_pointcloud.dir/cmake_clean.cmake
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_pointcloud/tests && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_velodyne_pointcloud.dir/cmake_clean.cmake
 .PHONY : velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/clean
 
 velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/depend:
-	cd /home/wenws/15_velodyne/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/15_velodyne/src /home/wenws/15_velodyne/src/velodyne/velodyne_pointcloud/tests /home/wenws/15_velodyne/build /home/wenws/15_velodyne/build/velodyne/velodyne_pointcloud/tests /home/wenws/15_velodyne/build/velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/15_velodyne/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/15_velodyne/src /home/husai/15_velodyne/src/velodyne/velodyne_pointcloud/tests /home/husai/15_velodyne/build /home/husai/15_velodyne/build/velodyne/velodyne_pointcloud/tests /home/husai/15_velodyne/build/velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : velodyne/velodyne_pointcloud/tests/CMakeFiles/clean_test_results_velodyne_pointcloud.dir/depend
 

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/lib/input.cc" "/home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/lib/CMakeFiles/velodyne_input.dir/input.cc.o"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_driver/src/lib/input.cc" "/home/husai/15_velodyne/build/velodyne/velodyne_driver/src/lib/CMakeFiles/velodyne_input.dir/input.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,12 +21,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/wenws/15_velodyne/devel/include"
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_driver/include"
-  "/home/wenws/23_pointcloud2laserscan/devel/include"
-  "/home/wenws/23_pointcloud2laserscan/src/geometry2/tf2_ros/include"
-  "/home/wenws/23_pointcloud2laserscan/src/geometry2/tf2/include"
-  "/home/wenws/23_pointcloud2laserscan/src/geometry2/tf2_msgs/include"
+  "/home/husai/15_velodyne/devel/include"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_driver/include"
   "/opt/ros/jade/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

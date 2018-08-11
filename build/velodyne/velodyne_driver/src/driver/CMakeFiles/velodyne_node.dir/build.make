@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/15_velodyne/src
+CMAKE_SOURCE_DIR = /home/husai/15_velodyne/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/15_velodyne/build
+CMAKE_BINARY_DIR = /home/husai/15_velodyne/build
 
 # Include any dependencies generated for this target.
 include velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/depend.make
@@ -50,18 +50,18 @@ include velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/progres
 include velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/flags.make
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/flags.make
-velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o: /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver/velodyne_node.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/15_velodyne/build/CMakeFiles $(CMAKE_PROGRESS_1)
+velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o: /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver/velodyne_node.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/15_velodyne/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o"
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/velodyne_node.dir/velodyne_node.cc.o -c /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver/velodyne_node.cc
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/velodyne_node.dir/velodyne_node.cc.o -c /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver/velodyne_node.cc
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/velodyne_node.dir/velodyne_node.cc.i"
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver/velodyne_node.cc > CMakeFiles/velodyne_node.dir/velodyne_node.cc.i
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver/velodyne_node.cc > CMakeFiles/velodyne_node.dir/velodyne_node.cc.i
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/velodyne_node.dir/velodyne_node.cc.s"
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver/velodyne_node.cc -o CMakeFiles/velodyne_node.dir/velodyne_node.cc.s
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver/velodyne_node.cc -o CMakeFiles/velodyne_node.dir/velodyne_node.cc.s
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o.requires:
 .PHONY : velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o.requires
@@ -73,18 +73,18 @@ velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.c
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o.provides.build: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.o: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/flags.make
-velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.o: /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver/driver.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wenws/15_velodyne/build/CMakeFiles $(CMAKE_PROGRESS_2)
+velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.o: /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver/driver.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/husai/15_velodyne/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.o"
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/velodyne_node.dir/driver.cc.o -c /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver/driver.cc
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/velodyne_node.dir/driver.cc.o -c /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver/driver.cc
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/velodyne_node.dir/driver.cc.i"
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver/driver.cc > CMakeFiles/velodyne_node.dir/driver.cc.i
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver/driver.cc > CMakeFiles/velodyne_node.dir/driver.cc.i
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/velodyne_node.dir/driver.cc.s"
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver/driver.cc -o CMakeFiles/velodyne_node.dir/driver.cc.s
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver/driver.cc -o CMakeFiles/velodyne_node.dir/driver.cc.s
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.o.requires:
 .PHONY : velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.o.requires
@@ -103,50 +103,50 @@ velodyne_node_OBJECTS = \
 # External object files for target velodyne_node
 velodyne_node_EXTERNAL_OBJECTS =
 
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.o
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/build.make
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /home/wenws/15_velodyne/devel/lib/libvelodyne_input.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libnodeletlib.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libbondcpp.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libclass_loader.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/libPocoFoundation.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libroslib.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librospack.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libtf.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /home/wenws/23_pointcloud2laserscan/devel/lib/libtf2_ros.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libactionlib.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libmessage_filters.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libroscpp.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libxmlrpcpp.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /home/wenws/23_pointcloud2laserscan/devel/lib/libtf2.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librosconsole.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librosconsole_log4cxx.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librosconsole_backend_interface.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/liblog4cxx.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libroscpp_serialization.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librostime.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libcpp_common.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node"
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/velodyne_node.dir/link.txt --verbose=$(VERBOSE)
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/driver.cc.o
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/build.make
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /home/husai/15_velodyne/devel/lib/libvelodyne_input.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libnodeletlib.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libbondcpp.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libclass_loader.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/libPocoFoundation.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libroslib.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librospack.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libtf.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libtf2_ros.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libactionlib.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libmessage_filters.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libroscpp.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libxmlrpcpp.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libtf2.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librosconsole.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librosconsole_log4cxx.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librosconsole_backend_interface.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/liblog4cxx.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libroscpp_serialization.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/librostime.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /opt/ros/jade/lib/libcpp_common.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node"
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/velodyne_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/build: /home/wenws/15_velodyne/devel/lib/velodyne_driver/velodyne_node
+velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/build: /home/husai/15_velodyne/devel/lib/velodyne_driver/velodyne_node
 .PHONY : velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/build
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/requires: velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/velodyne_node.cc.o.requires
@@ -154,10 +154,10 @@ velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/requires: velod
 .PHONY : velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/requires
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/clean:
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver && $(CMAKE_COMMAND) -P CMakeFiles/velodyne_node.dir/cmake_clean.cmake
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver && $(CMAKE_COMMAND) -P CMakeFiles/velodyne_node.dir/cmake_clean.cmake
 .PHONY : velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/clean
 
 velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/depend:
-	cd /home/wenws/15_velodyne/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/15_velodyne/src /home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/driver /home/wenws/15_velodyne/build /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver /home/wenws/15_velodyne/build/velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/15_velodyne/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/15_velodyne/src /home/husai/15_velodyne/src/velodyne/velodyne_driver/src/driver /home/husai/15_velodyne/build /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver /home/husai/15_velodyne/build/velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : velodyne/velodyne_driver/src/driver/CMakeFiles/velodyne_node.dir/depend
 

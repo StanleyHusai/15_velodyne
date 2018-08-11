@@ -1,8 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/transform_nodelet.dir/transform_nodelet.cc.o"
   "CMakeFiles/transform_nodelet.dir/transform.cc.o"
-  "/home/wenws/15_velodyne/devel/lib/libtransform_nodelet.pdb"
-  "/home/wenws/15_velodyne/devel/lib/libtransform_nodelet.so"
+  "/home/husai/15_velodyne/devel/lib/libtransform_nodelet.pdb"
+  "/home/husai/15_velodyne/devel/lib/libtransform_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

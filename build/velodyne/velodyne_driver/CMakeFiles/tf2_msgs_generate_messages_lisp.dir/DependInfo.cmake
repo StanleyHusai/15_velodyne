@@ -16,12 +16,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/wenws/15_velodyne/devel/include"
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_driver/include"
-  "/home/wenws/23_pointcloud2laserscan/devel/include"
-  "/home/wenws/23_pointcloud2laserscan/src/geometry2/tf2_ros/include"
-  "/home/wenws/23_pointcloud2laserscan/src/geometry2/tf2/include"
-  "/home/wenws/23_pointcloud2laserscan/src/geometry2/tf2_msgs/include"
+  "/home/husai/15_velodyne/devel/include"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_driver/include"
   "/opt/ros/jade/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

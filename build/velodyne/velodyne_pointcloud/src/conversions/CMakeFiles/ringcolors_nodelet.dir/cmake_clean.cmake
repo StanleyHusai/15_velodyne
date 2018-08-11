@@ -1,8 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/ringcolors_nodelet.dir/ringcolors_nodelet.cc.o"
   "CMakeFiles/ringcolors_nodelet.dir/colors.cc.o"
-  "/home/wenws/15_velodyne/devel/lib/libringcolors_nodelet.pdb"
-  "/home/wenws/15_velodyne/devel/lib/libringcolors_nodelet.so"
+  "/home/husai/15_velodyne/devel/lib/libringcolors_nodelet.pdb"
+  "/home/husai/15_velodyne/devel/lib/libringcolors_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

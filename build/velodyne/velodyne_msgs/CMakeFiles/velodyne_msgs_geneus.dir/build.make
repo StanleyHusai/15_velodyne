@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/15_velodyne/src
+CMAKE_SOURCE_DIR = /home/husai/15_velodyne/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/15_velodyne/build
+CMAKE_BINARY_DIR = /home/husai/15_velodyne/build
 
 # Utility rule file for velodyne_msgs_geneus.
 
@@ -56,10 +56,10 @@ velodyne/velodyne_msgs/CMakeFiles/velodyne_msgs_geneus.dir/build: velodyne_msgs_
 .PHONY : velodyne/velodyne_msgs/CMakeFiles/velodyne_msgs_geneus.dir/build
 
 velodyne/velodyne_msgs/CMakeFiles/velodyne_msgs_geneus.dir/clean:
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_msgs && $(CMAKE_COMMAND) -P CMakeFiles/velodyne_msgs_geneus.dir/cmake_clean.cmake
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_msgs && $(CMAKE_COMMAND) -P CMakeFiles/velodyne_msgs_geneus.dir/cmake_clean.cmake
 .PHONY : velodyne/velodyne_msgs/CMakeFiles/velodyne_msgs_geneus.dir/clean
 
 velodyne/velodyne_msgs/CMakeFiles/velodyne_msgs_geneus.dir/depend:
-	cd /home/wenws/15_velodyne/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/15_velodyne/src /home/wenws/15_velodyne/src/velodyne/velodyne_msgs /home/wenws/15_velodyne/build /home/wenws/15_velodyne/build/velodyne/velodyne_msgs /home/wenws/15_velodyne/build/velodyne/velodyne_msgs/CMakeFiles/velodyne_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/15_velodyne/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/15_velodyne/src /home/husai/15_velodyne/src/velodyne/velodyne_msgs /home/husai/15_velodyne/build /home/husai/15_velodyne/build/velodyne/velodyne_msgs /home/husai/15_velodyne/build/velodyne/velodyne_msgs/CMakeFiles/velodyne_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : velodyne/velodyne_msgs/CMakeFiles/velodyne_msgs_geneus.dir/depend
 

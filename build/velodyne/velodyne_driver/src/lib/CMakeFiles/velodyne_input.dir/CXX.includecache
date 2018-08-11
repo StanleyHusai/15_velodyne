@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wenws/15_velodyne/devel/include/velodyne_msgs/VelodynePacket.h
+/home/husai/15_velodyne/devel/include/velodyne_msgs/VelodynePacket.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/wenws/15_velodyne/src/velodyne/velodyne_driver/include/velodyne_driver/input.h
+/home/husai/15_velodyne/src/velodyne/velodyne_driver/include/velodyne_driver/input.h
 unistd.h
 -
 stdio.h
@@ -36,7 +36,7 @@ ros/ros.h
 velodyne_msgs/VelodynePacket.h
 -
 
-/home/wenws/15_velodyne/src/velodyne/velodyne_driver/src/lib/input.cc
+/home/husai/15_velodyne/src/velodyne/velodyne_driver/src/lib/input.cc
 unistd.h
 -
 string

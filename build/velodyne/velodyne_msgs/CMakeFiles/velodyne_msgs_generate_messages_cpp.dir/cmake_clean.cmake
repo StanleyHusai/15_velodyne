@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/velodyne_msgs_generate_messages_cpp"
-  "/home/wenws/15_velodyne/devel/include/velodyne_msgs/VelodyneScan.h"
-  "/home/wenws/15_velodyne/devel/include/velodyne_msgs/VelodynePacket.h"
+  "/home/husai/15_velodyne/devel/include/velodyne_msgs/VelodynePacket.h"
+  "/home/husai/15_velodyne/devel/include/velodyne_msgs/VelodyneScan.h"
 )
 
 # Per-language clean rules from dependency scanning.

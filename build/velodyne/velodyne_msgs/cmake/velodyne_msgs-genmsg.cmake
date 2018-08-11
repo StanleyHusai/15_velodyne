@@ -2,7 +2,7 @@
 
 message(STATUS "velodyne_msgs: 2 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ivelodyne_msgs:/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg;-Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ivelodyne_msgs:/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg;-Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -16,14 +16,14 @@ add_custom_target(velodyne_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
 add_custom_target(_velodyne_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "velodyne_msgs" "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" "velodyne_msgs/VelodynePacket:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "velodyne_msgs" "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" ""
 )
 
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
 add_custom_target(_velodyne_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "velodyne_msgs" "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "velodyne_msgs" "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" "velodyne_msgs/VelodynePacket:std_msgs/Header"
 )
 
 #
@@ -33,15 +33,15 @@ add_custom_target(_velodyne_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(velodyne_msgs
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/jade/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/velodyne_msgs
 )
 _generate_msg_cpp(velodyne_msgs
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/jade/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -59,9 +59,9 @@ add_custom_target(velodyne_msgs_generate_messages_cpp
 add_dependencies(velodyne_msgs_generate_messages velodyne_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
 add_dependencies(velodyne_msgs_generate_messages_cpp _velodyne_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
 add_dependencies(velodyne_msgs_generate_messages_cpp _velodyne_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -74,15 +74,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS velodyne_msgs_generate_messages_cpp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(velodyne_msgs
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/jade/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/velodyne_msgs
 )
 _generate_msg_eus(velodyne_msgs
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/jade/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -100,9 +100,9 @@ add_custom_target(velodyne_msgs_generate_messages_eus
 add_dependencies(velodyne_msgs_generate_messages velodyne_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
 add_dependencies(velodyne_msgs_generate_messages_eus _velodyne_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
 add_dependencies(velodyne_msgs_generate_messages_eus _velodyne_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -115,15 +115,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS velodyne_msgs_generate_messages_eus
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(velodyne_msgs
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/jade/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/velodyne_msgs
 )
 _generate_msg_lisp(velodyne_msgs
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/jade/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -141,9 +141,9 @@ add_custom_target(velodyne_msgs_generate_messages_lisp
 add_dependencies(velodyne_msgs_generate_messages velodyne_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
 add_dependencies(velodyne_msgs_generate_messages_lisp _velodyne_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
 add_dependencies(velodyne_msgs_generate_messages_lisp _velodyne_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -156,15 +156,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS velodyne_msgs_generate_messages_lis
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(velodyne_msgs
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg"
   "${MSG_I_FLAGS}"
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/jade/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/velodyne_msgs
 )
 _generate_msg_py(velodyne_msgs
-  "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg"
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/jade/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -182,9 +182,9 @@ add_custom_target(velodyne_msgs_generate_messages_py
 add_dependencies(velodyne_msgs_generate_messages velodyne_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
 add_dependencies(velodyne_msgs_generate_messages_py _velodyne_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/wenws/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg" NAME_WE)
+get_filename_component(_filename "/home/husai/15_velodyne/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg" NAME_WE)
 add_dependencies(velodyne_msgs_generate_messages_py _velodyne_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

@@ -1,8 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/ringcolors_node.dir/ringcolors_node.cc.o"
   "CMakeFiles/ringcolors_node.dir/colors.cc.o"
-  "/home/wenws/15_velodyne/devel/lib/velodyne_pointcloud/ringcolors_node.pdb"
-  "/home/wenws/15_velodyne/devel/lib/velodyne_pointcloud/ringcolors_node"
+  "/home/husai/15_velodyne/devel/lib/velodyne_pointcloud/ringcolors_node.pdb"
+  "/home/husai/15_velodyne/devel/lib/velodyne_pointcloud/ringcolors_node"
 )
 
 # Per-language clean rules from dependency scanning.

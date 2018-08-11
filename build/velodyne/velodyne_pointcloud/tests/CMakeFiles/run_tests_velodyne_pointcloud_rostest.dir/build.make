@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenws/15_velodyne/src
+CMAKE_SOURCE_DIR = /home/husai/15_velodyne/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenws/15_velodyne/build
+CMAKE_BINARY_DIR = /home/husai/15_velodyne/build
 
 # Utility rule file for run_tests_velodyne_pointcloud_rostest.
 
@@ -56,10 +56,10 @@ velodyne/velodyne_pointcloud/tests/CMakeFiles/run_tests_velodyne_pointcloud_rost
 .PHONY : velodyne/velodyne_pointcloud/tests/CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/build
 
 velodyne/velodyne_pointcloud/tests/CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/clean:
-	cd /home/wenws/15_velodyne/build/velodyne/velodyne_pointcloud/tests && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/cmake_clean.cmake
+	cd /home/husai/15_velodyne/build/velodyne/velodyne_pointcloud/tests && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/cmake_clean.cmake
 .PHONY : velodyne/velodyne_pointcloud/tests/CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/clean
 
 velodyne/velodyne_pointcloud/tests/CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/depend:
-	cd /home/wenws/15_velodyne/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenws/15_velodyne/src /home/wenws/15_velodyne/src/velodyne/velodyne_pointcloud/tests /home/wenws/15_velodyne/build /home/wenws/15_velodyne/build/velodyne/velodyne_pointcloud/tests /home/wenws/15_velodyne/build/velodyne/velodyne_pointcloud/tests/CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/husai/15_velodyne/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/husai/15_velodyne/src /home/husai/15_velodyne/src/velodyne/velodyne_pointcloud/tests /home/husai/15_velodyne/build /home/husai/15_velodyne/build/velodyne/velodyne_pointcloud/tests /home/husai/15_velodyne/build/velodyne/velodyne_pointcloud/tests/CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : velodyne/velodyne_pointcloud/tests/CMakeFiles/run_tests_velodyne_pointcloud_rostest.dir/depend
 
