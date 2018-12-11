@@ -18,7 +18,6 @@ Customized Deriver for Velodyne Lidar 32E
 
 * Give execute permission to your script in /15_velodyne
 
-`$ chmod +x runVelodyne.sh`
 
 * `$ ./runVelodyne.sh`
 
